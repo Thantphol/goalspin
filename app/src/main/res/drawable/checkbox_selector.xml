@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- เมื่อ Checkbox ถูกติ๊ก (checked="true") ให้ใช้รูปนี้ -->
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/checkbox_checked" />
+
+    <!-- เมื่อ Checkbox ไม่ถูกติ๊ก (checked="false") ให้ใช้รูปนี้ -->
+    <item
+        android:state_checked="false"
+        android:drawable="@drawable/checkbox_unchecked" />
+
+    <!-- สถานะเริ่มต้น (เผื่อไว้) -->
+    <item android:drawable="@drawable/checkbox_unchecked" />
+</selector>
